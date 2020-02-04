@@ -1,0 +1,5 @@
+﻿  Kalkulator.cpp
+c:\users\dziub\source\repos\silnia\silnia1\kalkulator.cpp(29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Silnia1.cpp
+  Generating Code...
+  Silnia1.vcxproj -> C:\Users\dziub\source\repos\Silnia\x64\Debug\Silnia1.exe

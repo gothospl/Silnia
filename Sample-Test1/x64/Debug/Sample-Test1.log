@@ -1,0 +1,3 @@
+﻿  test.cpp
+test.obj : error LNK2019: unresolved external symbol "public: long __cdecl Kalkulator::silnia(int)" (?silnia@Kalkulator@@QEAAJH@Z) referenced in function "private: virtual void __cdecl TestMatch_Silnia8_Test::TestBody(void)" (?TestBody@TestMatch_Silnia8_Test@@EEAAXXZ)
+C:\Users\dziub\source\repos\Silnia\x64\Debug\Sample-Test1.exe : fatal error LNK1120: 1 unresolved externals

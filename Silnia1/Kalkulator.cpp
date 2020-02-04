@@ -11,18 +11,19 @@ void Kalkulator::liczSilnia(int x)
 	}
 
 	for (int i = 1; i <= liczba; i++) {
-		silnia *= i;
+		wewSilnia *= i;
 	}
 
-	k = silnia;
+	k = wewSilnia;
 
 	while (k > 0) {
 		przechowalnia.push_back(k % 10);
 		k = k / 10;
 	}
 
+
 	cout << "Liczba: " << x << endl;
-	cout << "Silnia: " << silnia << endl;
+	cout << "Silnia: " << wewSilnia << endl;
 	cout << "Ilosc cyfr: " << przechowalnia.size() << endl;
 	cout << "Cyfry w kolejnosci:";
 	for (int j = przechowalnia.size() - 1; j >= 0; j--) {
@@ -30,6 +31,16 @@ void Kalkulator::liczSilnia(int x)
 	}
 }
 
+long Kalkulator::silnia(int x)
+{
+	liczba = abs(x);
+	for (int i = 1; i <= liczba; i++) {
+		s *= i;
+	}
+	return s;
+}
+
+/*
 Kalkulator::Kalkulator()
 {
 }
@@ -38,3 +49,4 @@ Kalkulator::Kalkulator()
 Kalkulator::~Kalkulator()
 {
 }
+*/
